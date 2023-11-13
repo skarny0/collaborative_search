@@ -51,7 +51,7 @@ function createDummy() {
     y: Math.random() * world.height,
     vx: Math.random() * 4 - 2, // Random velocity between -2 and 2
     vy: Math.random() * 4 - 2,
-    color: getRandomColor(), // Dummy objects will be grey
+    color: 'red', // getRandomColor(), // Dummy objects will be grey
     speed: 2, // Same speed as labeled objects for simplicity
     label: ''
   };
@@ -82,7 +82,7 @@ function getSecondTarget(){
     y: Math.random() * world.height,
     vx: 0,
     vy: 1,
-    color: 'blue',
+    color: 'red',
     speed: 2,
     label: 'B'
   }
